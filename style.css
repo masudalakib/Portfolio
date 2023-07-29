@@ -4,15 +4,19 @@ body{
 
 .banner-container{
     background-color: #CACACA;
-
 }
+
+
 
 .bonner-column{
     background-color: #8d8d8d;
 }
 
 .navbar-container{
+    top: 0;
     background-color: black;
+    /* position: sticky;
+    z-index: 2; */
 }
 
 .about-container{
@@ -33,10 +37,28 @@ body{
     height: 150px;
     border-radius: 50%;
     text-align: center;
-    color: beige;
+    color: rgb(30, 24, 200);
 
 }
 
 .project-container{
     background-color: rgb(226, 157, 29);
+}
+
+.footer{
+    background-color: rgb(127, 208, 21);
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.circle:hover{
+    background-color: rgb(112, 18, 212);
 }
